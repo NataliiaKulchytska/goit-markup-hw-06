@@ -630,7 +630,21 @@ img {
 .join-social-link:focus{
   background-color: var(--blue-color);
 }
-
+/* Подписаться */
+.block-form{
+margin-left: 93px;
+}
+.form-title{
+  font-size: 14px;
+  line-height: 1.14;
+  color: var(--white-color);
+  text-transform: uppercase;
+}
+.btn-form{
+  min-width: 200px;
+  color: var(--white-color);
+  background-color: var(--blue-color);
+}
 /* Модальное окно */
 
 .backdrop {

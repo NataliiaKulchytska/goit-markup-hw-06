@@ -412,6 +412,20 @@
             </li>
           </ul>
         </div>
+        <div class="block-form">
+          <b class="form-title">Подпишитесь на рассылку</b>
+          <form>
+            <label for="e-mail">E-mail</label>
+            <input type="email" name="e-mail" id="e-mail" />
+
+            <button type="submit" class="btn-form">
+              Подписаться
+              <svg width="24" height="24">
+                <use href=""></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
     <div data-modal class="backdrop is-hidden">
@@ -421,6 +435,24 @@
             <use href="./images/icons/symbol-defs.svg#icon-close-black"></use>
           </svg>
         </button>
+        <form autocomplete="on">
+          <label for="name">Имя</label>
+          <input type="text" name="name" id="name" />
+
+          <label for="tel">Телефон</label>
+          <input type="tel" name="tel" id="tel" />
+
+          <label for="mail">Почта</label>
+          <input type="email" name="mail" id="mail" />
+
+          <label for="comment">Комментарий</label>
+          <textarea name="comment" id="comment" rows="10">Введите текст</textarea>
+
+          <input type="checkbox" name="" value="Условия договора" id="" />
+          <label for="">Соглашаюсь с рассылкой и принимаю Условия договора</label>
+
+          <button type="submit">Отправить</button>
+        </form>
       </div>
     </div>
     <!-- Скрипт -->
