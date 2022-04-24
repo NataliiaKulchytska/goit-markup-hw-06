@@ -415,8 +415,8 @@
         <div class="block-form">
           <b class="form-title">Подпишитесь на рассылку</b>
           <form>
-            <label for="e-mail">E-mail</label>
-            <input type="email" name="e-mail" id="e-mail" />
+            <label for="e-mail"></label>
+            <input type="email" name="e-mail" id="e-mail" placeholder="E-mail" />
 
             <button type="submit" class="btn-form">
               Подписаться
@@ -435,22 +435,29 @@
             <use href="./images/icons/symbol-defs.svg#icon-close-black"></use>
           </svg>
         </button>
-        <form autocomplete="on">
-          <label for="name">Имя</label>
-          <input type="text" name="name" id="name" />
+        <form autocomplete="on" class="form">
+          <b>Оставьте свои данные, мы вам перезвоним</b>
+          <div class="form-group">
+            <label for="name">Имя</label>
+            <input type="text" name="name" id="name" />
+          </div>
 
-          <label for="tel">Телефон</label>
-          <input type="tel" name="tel" id="tel" />
-
-          <label for="mail">Почта</label>
-          <input type="email" name="mail" id="mail" />
-
-          <label for="comment">Комментарий</label>
-          <textarea name="comment" id="comment" rows="10">Введите текст</textarea>
-
-          <input type="checkbox" name="" value="Условия договора" id="" />
-          <label for="">Соглашаюсь с рассылкой и принимаю Условия договора</label>
-
+          <div class="form-group">
+            <label for="tel">Телефон</label>
+            <input type="tel" name="tel" id="tel" />
+          </div>
+          <div class="form-group">
+            <label for="mail">Почта</label>
+            <input type="email" name="mail" id="mail" />
+          </div>
+          <div class="form-group">
+            <label for="comment">Комментарий</label>
+            <textarea name="comment" id="comment" rows="10" placeholder="Введите текст"></textarea>
+          </div>
+          <div class="form-group">
+            <input type="checkbox" name="" value="Условия договора" id="" />
+            <label for="">Соглашаюсь с рассылкой и принимаю <a href="#">Условия договора</a></label>
+          </div>
           <button type="submit">Отправить</button>
         </form>
       </div>
