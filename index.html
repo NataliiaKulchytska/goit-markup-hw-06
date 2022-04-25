@@ -416,12 +416,18 @@
           <b class="form-title">Подпишитесь на рассылку</b>
           <form>
             <label for="e-mail"></label>
-            <input type="email" name="e-mail" id="e-mail" placeholder="E-mail" />
+            <input
+              class="input-subscribe"
+              type="email"
+              name="e-mail"
+              id="e-mail"
+              placeholder="E-mail"
+            />
 
             <button type="submit" class="btn-form">
               Подписаться
-              <svg width="24" height="24">
-                <use href=""></use>
+              <svg width="24" height="24" class="svg-subscribe">
+                <use href="./images/icons/symbol-defs.svg#icon-flay"></use>
               </svg>
             </button>
           </form>
@@ -436,29 +442,38 @@
           </svg>
         </button>
         <form autocomplete="on" class="form">
-          <b>Оставьте свои данные, мы вам перезвоним</b>
+          <h2 class="form-heading">Оставьте свои данные, мы вам перезвоним</h2>
           <div class="form-group">
-            <label for="name">Имя</label>
-            <input type="text" name="name" id="name" />
+            <label for="name" class="form-label">Имя</label>
+            <input type="text" name="name" id="name" class="form-input" />
           </div>
 
           <div class="form-group">
-            <label for="tel">Телефон</label>
-            <input type="tel" name="tel" id="tel" />
+            <label for="tel" class="form-label">Телефон</label>
+            <input type="tel" name="tel" id="tel" class="form-input" />
           </div>
           <div class="form-group">
-            <label for="mail">Почта</label>
-            <input type="email" name="mail" id="mail" />
+            <label for="mail" class="form-label">Почта</label>
+            <input type="email" name="mail" id="mail" class="form-input" />
           </div>
           <div class="form-group">
-            <label for="comment">Комментарий</label>
-            <textarea name="comment" id="comment" rows="10" placeholder="Введите текст"></textarea>
+            <label for="comment" class="form-label">Комментарий</label>
+            <textarea
+              class="form-textarea"
+              name="comment"
+              id="comment"
+              rows="10"
+              placeholder="Введите текст"
+            ></textarea>
           </div>
           <div class="form-group">
-            <input type="checkbox" name="" value="Условия договора" id="" />
-            <label for="">Соглашаюсь с рассылкой и принимаю <a href="#">Условия договора</a></label>
+            <input type="checkbox" name="checkbox" value="Условия договора" id="checkbox" />
+            <label for="checkbox" class="form-label">
+              Соглашаюсь с рассылкой и принимаю
+              <a href="#" class="form-link">Условия договора</a></label
+            >
           </div>
-          <button type="submit">Отправить</button>
+          <button type="submit" class="form-button">Отправить</button>
         </form>
       </div>
     </div>
