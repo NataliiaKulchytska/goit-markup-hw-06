@@ -789,7 +789,8 @@ img {
 }
 
 .form-input:focus {
-  border: 1px solid var(--blue-color);
+  outline: var(--blue-color);
+  border-color: var(--blue-color);
 }
 .form-input:focus + .box-icon{
   fill: var(--blue-color); 
@@ -809,8 +810,13 @@ img {
   border-radius: 4px;
   color: rgba(117, 117, 117, 0.5);
 }
-.label-checkbox{
-  display: block;
+.form-textarea:focus-within{
+  outline: var(--blue-color);
+  border-color: var(--blue-color);
+}
+.label-checkbox{  
+  display: flex;
+  align-items: center;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -828,7 +834,7 @@ img {
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
-.icon-box{
+.icon-box{  
   display: inline-block;
   width: 16px;
   height: 15px;
@@ -843,11 +849,11 @@ img {
   background-size: contain;
   background-origin: border-box; */
 }
-.icon-checkbox{
-  position: absolute;
+/* .icon-checkbox{
+  display: block;
   
- 
-}
+  
+} */
 .form-link {
   color: var(--blue-color);
 }
