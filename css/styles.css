@@ -569,6 +569,7 @@ img {
   height: 4px;
 
   background-color: var(--white-color);
+
   transform: scaleX(0);
   transition: transform 250ms var(--timing-function), 
   color 250ms var(--timing-function),
@@ -594,15 +595,17 @@ img {
 
 .join{
   display: block;
-  color: var(--white-color);
-  text-transform: uppercase;
   margin-bottom: 20px;
+
+  color: var(--white-color);
+  text-transform: uppercase;  
 }
 
 .join-social-list{
   display: flex;
   margin: 0;
   padding-left: 0;
+
   list-style: none;
 }
 
@@ -637,6 +640,7 @@ img {
 .form-title{
   display: block;
   margin-bottom: 20px;
+
   font-size: 14px;
   line-height: 1.14;
   color: var(--white-color);
@@ -646,14 +650,18 @@ img {
   width: 358px;
   height: 50px;
   padding: 15px 16px;
+
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+
   color: var(--white-color);
   background-color: #2F303A;
-  border: 1px solid rgba(255, 255, 255, 0.3);  
-  border-radius: 4px;
+ 
   font-size: 16px;
   line-height: 1.25;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   cursor: pointer;
+
   transition: border 250ms var(--timing-function);
 
 } 
@@ -671,6 +679,7 @@ img {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border: 0 solid transparent;
   border-radius: 4px;
+
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -678,8 +687,9 @@ img {
   
   color: var(--white-color);
   background-color: var(--blue-color);
-  transition: background-color 250ms var(--timing-function);
+
   cursor: pointer;
+  transition: background-color 250ms var(--timing-function);
 }
 .btn-form:hover,
 .btn-form:focus{
@@ -758,6 +768,7 @@ img {
 .form-heading {
   margin-top: 2px;
   margin-bottom: 12px;
+
   text-align: center;
   font-weight: 700;
   font-size: 20px;
@@ -794,7 +805,9 @@ img {
   padding-left: 42px;  
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
+
   cursor: pointer;
+
   transition: outline 250ms var(--timing-function),
   border-color 250ms var(--timing-function);
 }
@@ -805,6 +818,7 @@ img {
   top: 55%;
   left: 12px;
   margin-right: 12px;
+
   transition: fill 250ms var(--timing-function)
 }
 
@@ -830,10 +844,13 @@ img {
   line-height: 1.17;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
-  transition: outline 250ms var(--timing-function),
-  border-color 250ms var(--timing-function);
+  
+  
   cursor: pointer;
   resize:none;
+
+  transition: outline 250ms var(--timing-function),
+  border-color 250ms var(--timing-function);
 }
 .form-textarea:focus-within{
   outline: var(--blue-color);
@@ -843,10 +860,12 @@ img {
   display: flex;
   align-items: center;
   margin-top: 20px;
+
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--base-text-color);
+
   cursor: pointer;
   
 }
@@ -868,6 +887,7 @@ img {
   margin-right: 8px;  
   border: 2px solid var(--basic-title-color);
   border-radius: 4px;
+
   transition: background-color 250ms var(--timing-function),
   border-color 250ms var(--timing-function);
   
@@ -887,8 +907,10 @@ img {
   margin: 30px auto;
   margin-bottom: 0;
   padding: 10px 55px;
+
   color: var(--white-color);
   background-color: var(--blue-color);
+
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -898,6 +920,7 @@ img {
 
   cursor: pointer;
   letter-spacing: 0.06em;
+  
   transition: background-color 250ms var(--timing-function);
 }
 .form-button:hover{
